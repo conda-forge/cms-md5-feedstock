@@ -14,3 +14,4 @@ else
 ${CC} md5.c -shared -fPIC -o libcms-md5.so
 cp -v libcms-md5.so ${PREFIX}/lib
 fi
+exit 0
